@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fm.selectator.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    	<div class="form-group ">
+                <select id="multiple" class="__selector myDiv" name="select2" multiple >
+                    <option value=""selected>Search </option>
+                    <option value="1">Plastic</option>
+                    <option value="2" >Coppers</option>
+                    <option value="3">Three</option>
+                    <option value="4" >Four</option>
+                    <option value="5">Five</option>
+                    <option value="6">Six</option>
+                    <option value="7">Seven</option>
+                    <option value="8">Eight</option>
+                    <option value="9">Nine</option>
+                    <option value="10">Ten</option>
+                    <option value="11">Eleven</option>
+                    <option value="12">Twelve</option>
+                    <option value="13">Thirteen</option>
+                    <option value="14">Fourteen</option>
+                    <option value="15">Fifteen</option>
+                    <option value="16">Sixteen</option>
+                    <option value="17">Seventeen</option>
+                    <option value="18">Eighteen</option>
+                    <option value="19">Nineteen</option>
+                    <option value="20">Twenty</option>
+                    <option value="21">Twenty-one</option>
+                    <option value="22">Twenty-two</option>
+                    <option value="23">Twenty-three</option>
+                    <option value="24">Twenty-four</option>
+                    <option value="25">Twenty-five</option>
+                    <option value="26">Twenty-six</option>
+                    <option value="27">Twenty-seven</option>
+                    <option value="28">Twenty-eight</option>
+                    <option value="29">Twenty-nine</option>
+                    <option value="30">Thirty</option>
+                </select>
+            </div>
+
+
+
+    <script src="./bootstrap/js/jquery-3.1.1.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+
+
+    <script src="./fm.selectator.jquery.js"></script><script>
+		$('#basic').selectator({
+		  labels: {
+		    search: 'Search here...'
+		  },
+		  searchFields: 'value text subtitle right'
+		});
+		$('#multiple').selectator({
+		  showAllOptionsOnFocus: true,
+		  searchFields: 'value text subtitle right'
+		});
+		</script>
+
+</body>
+
+</html>

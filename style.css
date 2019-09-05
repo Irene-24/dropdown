@@ -1,0 +1,9 @@
+.myDiv
+{
+    min-width:350px ;
+}
+
+.selectator_element.multiple
+{   
+    min-height: 50px !important;
+}
